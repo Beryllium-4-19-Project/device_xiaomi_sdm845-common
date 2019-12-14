@@ -90,6 +90,19 @@ ro.charger.enable_suspend=true
 # CNE
 persist.vendor.cne.feature=1
 
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.gralloc.disable_ubwc=0 \
+    vendor.display.disable_scaler=0
+
+# Display - HDR/WCG
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0 \
+    ro.surface_flinger.has_wide_color_display=true \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.use_color_management=true \
+    ro.surface_flinger.wcg_composition_dataspace=143261696
+
 # Display post-processing
 ro.vendor.display.cabl=2
 
