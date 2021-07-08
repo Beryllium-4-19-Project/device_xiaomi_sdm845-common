@@ -365,6 +365,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal_info_config_$(PRODUCT_HARDWARE).json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
+    $(LOCAL_PATH)/configs/thermal-engine-novr-prod.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-novr-prod.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-vr-prod.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-vr-prod.conf
+
+include hardware/google/pixel/thermal/device.mk
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-qti
