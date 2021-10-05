@@ -141,3 +141,9 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
+
+# USB debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
