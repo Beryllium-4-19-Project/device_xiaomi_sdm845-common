@@ -100,20 +100,20 @@ product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # CDSP
-vendor/bin/cdsprpcd
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
+vendor/bin/cdsprpcd|49e7bd1a410b2f4c15fe5728e0f57acb52d86751
+vendor/lib64/libcdsp_default_listener.so|8ce46a8bd55921347b2ea8b95e6b63eee1b8d84a
+vendor/lib64/libcdsprpc.so|5672b3f9e711a8b374b2eb1911f2ade2e013cf0f
 vendor/lib64/libfastrpc_utf_stub.so
-vendor/lib64/libsdsprpc.so
+vendor/lib64/libsdsprpc.so|3306bd743b71846c8971d2b6787f51efe1faac97
 vendor/lib64/libsysmon_cdsp_skel.so
-vendor/lib64/libmdsprpc.so
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libcdsprpc.so
+vendor/lib64/libmdsprpc.so|8561ef993d5d49fbc9a86811ff7a915612414ddb
+vendor/lib/libcdsp_default_listener.so|559fd89d3d0ffacf81007ac28808067bc2f63a2f
+vendor/lib/libcdsprpc.so|017bf022149c168311b11e79f078211d19048ebf
 vendor/lib/libfastcrc.so
 vendor/lib/libfastrpc_utf_stub.so
-vendor/lib/libsdsprpc.so
+vendor/lib/libsdsprpc.so|2c32e8de6ed3f5f55d2770efabb510b9b312c60d
 vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib/libmdsprpc.so
+vendor/lib/libmdsprpc.so|4f834f27467f62ef86513f95de74a435ad415ce9
 
 # Charger
 vendor/bin/hvdcp_opti
