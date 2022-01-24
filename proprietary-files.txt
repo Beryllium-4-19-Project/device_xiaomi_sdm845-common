@@ -2,19 +2,19 @@
 # alioth: alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys
 
 # ADSP
-vendor/bin/adsprpcd
+vendor/bin/adsprpcd|c49897b4ab71cb67629621a956203964d9949cf2
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
+vendor/lib64/libadsp_default_listener.so|367910dc279579d7400938cc97f6a1aa114c89f6
+vendor/lib64/libadsprpc.so|341e09adc84a67a476b2a6a390199f93699b1115
+vendor/lib/libadsp_default_listener.so|7572519345250e5509727fc780d4deb8ae8d23fd
+vendor/lib/libadsprpc.so|41d7970fc107123bacc02fc162563e5cde9b364c
 
 # ADSP modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|8305c614ebf13f84f15989631b8fdfdb9828d9be
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so|46232ba50668c8e4bb7fd7c36416d0a32c33ca75
+vendor/lib/rfsa/adsp/libVC1Dec.so|80f2879a960344b24539725b2a5dc9ebe9d97bf5
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|c626d2136bf0d0016baf4c39ecc4a8f3241fa342
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
