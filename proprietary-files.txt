@@ -25,11 +25,11 @@ vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Audio
 vendor/lib64/hw/audio.primary.sdm845.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
+vendor/lib64/libacdb-fts.so|79cda9274e29bdedc4e681a44f850ce5e3f83418
+vendor/lib64/libacdbrtac.so|88e1a101b4d7a5be1ff67a996b132928111750f9
+vendor/lib64/libadiertac.so|3d6bfb5aa04989bef7fffde06a1df63e5f880c8d
+vendor/lib64/libaudcal.so|854a8726f7f97ab4abf45dc26819714b859569c0
+vendor/lib64/libaudioalsa.so|f8be34a982cd731f9e13d62e6601dc47386a0ffa
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libaudioroute_ext.so
@@ -37,12 +37,12 @@ vendor/lib64/libcsd-client.so
 vendor/lib64/libqtigef.so
 vendor/lib/hw/audio.primary.sdm845.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
+vendor/lib/libacdb-fts.so|073a68e42d3ecacf39f6aa3f2782da8df94e5e7a
+vendor/lib/libacdbrtac.so|e043edde1fdd042224094f1ef5f2427cb8b6d0d2
+vendor/lib/libadiertac.so|c952499306c8aec7fa66ffddefdf25cd7845d676
+vendor/lib/libadm.so|304b07609e728d807e0c37cf7375c029f1fd5bec
+vendor/lib/libaudcal.so|eff755ad7fb8a5854570054b9711c98763c3b31d
+vendor/lib/libaudioalsa.so|334345f3440a2772321bc884647bb301386063ab
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
