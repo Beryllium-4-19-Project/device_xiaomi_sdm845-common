@@ -1,6 +1,13 @@
 # Common proprietary files - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version, unless pinned
 # alioth: alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys
 
+# DSP service - from alioth
+vendor/bin/dspservice
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
+vendor/lib/vendor.qti.hardware.dsp@1.0.so
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+
 # ADSP
 vendor/bin/adsprpcd|c49897b4ab71cb67629621a956203964d9949cf2
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
