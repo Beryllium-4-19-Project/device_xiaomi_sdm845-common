@@ -246,7 +246,10 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
+    libavservices_minijail_vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -302,9 +305,9 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0.vendor \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio.config@1.2.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.radio@1.6.vendor \
+    android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
     libjson.vendor \
