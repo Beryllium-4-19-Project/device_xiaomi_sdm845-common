@@ -715,7 +715,7 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Thermal engine
+# Thermal engine - from crosshatch-user 12 SP1A.210812.016.C1 8029091 release-keys
 vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 -vendor/lib/libthermalclient.so
